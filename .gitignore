@@ -15,3 +15,26 @@ arvaz-webui/node_modules/@esbuild/win32-x64/esbuild.exe
 arvaz-webui/node_modules/lightningcss-win32-x64-msvc/lightningcss.win32-x64-msvc.node
 arvaz-webui/node_modules/typescript/lib/_tsc.js
 arvaz-webui/node_modules/typescript/lib/typescript.js
+
+# hygiene
+node_modules/
+dist/
+build/
+bin/
+obj/
+.venv/
+__pycache__/
+*.log
+logs/
+.env
+.env.*
+*.tsbuildinfo
+.cache/
+coverage/
+*.zip
+*.7z
+graphify-out/
+.gitnexus/
+!.env.example
+/.agents/skills/caveman-setup/SKILL.md
+/.cursor/skills/caveman-setup/SKILL.md
