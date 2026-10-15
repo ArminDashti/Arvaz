@@ -1,9 +1,0 @@
-stack_name: arvaz
-image_tag: arvaz-webui:latest
-compose_file: ../../docker-compose.yml
-dockerfile: ../../Dockerfile
-docker_network: arvaz-webui-net
-internal_port: "80"
-publish_port: "5174"
-delete_volume: "no"
-delete_image: "yes"
